@@ -1,4 +1,4 @@
 package br.com.ada.correios.modelo;
 
-public class Comuns {
+public class Produto {
 }
