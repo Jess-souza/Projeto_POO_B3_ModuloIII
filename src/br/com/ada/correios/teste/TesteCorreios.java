@@ -13,12 +13,12 @@ public class TesteCorreios {
         postagem.salvar();
 
         SedexHoje sedexHoje = new SedexHoje();
-        sedexHoje.getCobranca();
+        sedexHoje.cobranca();
 
         Comuns comuns = new Comuns();
-        comuns.getCobranca();
+        comuns.cobranca();
 
         Sedex12 entregaSedex12 = new Sedex12();
-        entregaSedex12.getCobranca();
+        entregaSedex12.cobranca();
     }
 }
