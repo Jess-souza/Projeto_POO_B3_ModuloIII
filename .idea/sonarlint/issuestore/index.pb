@@ -7,6 +7,4 @@ L
 e
 5src/br/com/ada/correios/businessobject/SedexHoje.java,c/1/c1788e7db336fc26879991a880fad5126fd317a6
 c
-3src/br/com/ada/correios/businessobject/Sedex12.java,5/2/5297fb9edaeab422f1ea9299a222434454a333cd
-c
 3src/br/com/ada/correios/businessobject/Entrega.java,5/7/5771bfdb9c78e2c9b88d2f2714b573e7a961bab7
