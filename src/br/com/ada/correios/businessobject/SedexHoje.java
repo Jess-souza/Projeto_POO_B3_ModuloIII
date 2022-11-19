@@ -1,8 +1,6 @@
 package br.com.ada.correios.businessobject;
 
 import java.math.BigDecimal;
-
-//é cobrado a taxa de 25 reais, para todo o Brasil.
 public class SedexHoje implements Entrega {
     @Override
     public void getCobranca() {

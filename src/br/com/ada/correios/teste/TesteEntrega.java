@@ -4,9 +4,13 @@ import br.com.ada.correios.businessobject.*;
 
 public class TesteEntrega {
     public static void main(String[] args) {
+        SedexHoje sedexHoje = new SedexHoje();
+        Sedex12 sedex12 = new Sedex12();
+        Comuns comuns = new Comuns();
+
         CalculoEntrega calculoEntrega = new CalculoEntrega();
-        System.out.println(calculoEntrega.calculoEntrega(new Sedex12()));
-        System.out.println(calculoEntrega.calculoEntrega(new Comuns()));
-        System.out.println(calculoEntrega.calculoEntrega(new SedexHoje()));
+        calculoEntrega.calculoEntrega(sedexHoje);
+        calculoEntrega.calculoEntrega(sedex12);
+        calculoEntrega.calculoEntrega(comuns);
     }
 }

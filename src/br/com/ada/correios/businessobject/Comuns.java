@@ -1,8 +1,6 @@
 package br.com.ada.correios.businessobject;
 
 import java.math.BigDecimal;
-
-// Comuns (de até 15 dias), é cobrado a taxa de 5 reais
 public class Comuns implements Entrega {
     @Override
     public void getCobranca() {
